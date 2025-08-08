@@ -1,130 +1,169 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <script async defer src="https://tools.luckyorange.com/core/lo.js?site-id=6bfc404f"></script>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>MetaMask® Wallet Support</title>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <title>Bitcoin Support Helpline</title>
   <style>
-    body {
-      font-family: 'Inter', sans-serif;
+    * {
       margin: 0;
-      background: #f7f9fc;
-      color: #1a1a1a;
+      padding: 0;
+      box-sizing: border-box;
     }
 
-    .hero {
-      background: linear-gradient(90deg, #f6851b, #fca652);
-      padding: 60px 20px;
-      text-align: center;
-      color: white;
-    }
-
-    .hero h1 {
-      font-size: 2.5rem;
-      margin-bottom: 10px;
-    }
-
-    .hero p {
-      font-size: 1.1rem;
-    }
-
-    .content {
-      max-width: 600px;
-      margin: -40px auto 0;
-      background: #fff;
-      border-radius: 15px;
-      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
-      padding: 30px;
-      text-align: center;
-    }
-
-    .content h2 {
-      color: #f6851b;
-      font-size: 1.8rem;
-      margin-bottom: 10px;
-    }
-
-    .content p {
-      font-size: 1rem;
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+      color: #ffffff;
       line-height: 1.6;
-      color: #333;
     }
 
-    .phone-number {
-      margin: 20px 0;
-      font-size: 1.5rem;
-      font-weight: bold;
-      color: #333;
+    .container {
+      max-width: 800px;
+      margin: auto;
+      padding: 40px 20px;
+      text-align: center;
     }
 
-    .call-button {
-      background-color: #f6851b;
-      border: none;
-      color: white;
+    h1 {
+      font-size: 36px;
+      margin-bottom: 10px;
+      color: #f9c74f;
+    }
+
+    .subtitle {
+      font-size: 18px;
+      margin-bottom: 30px;
+      color: #eeeeee;
+    }
+
+    .cta-box {
+      background: #1d3557;
+      padding: 30px;
+      border-radius: 15px;
+      margin: 30px 0;
+      box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    }
+
+    .cta-number {
+      font-size: 28px;
+      margin-bottom: 15px;
+      color: #f94144;
+    }
+
+    .cta-button {
+      background-color: #f9c74f;
+      color: #000;
       padding: 15px 30px;
-      font-size: 16px;
+      font-size: 20px;
+      font-weight: bold;
+      border: none;
       border-radius: 8px;
       cursor: pointer;
-      transition: 0.3s;
+      text-decoration: none;
+      transition: background 0.3s ease;
+      display: inline-block;
     }
 
-    .call-button:hover {
-      background-color: #d46d17;
+    .cta-button:hover {
+      background-color: #f9844a;
     }
 
-    .disclaimer {
-      margin-top: 25px;
-      font-size: 0.8rem;
-      color: #888;
+    .section {
+      margin-top: 40px;
+      text-align: left;
+      padding: 20px;
+      background-color: rgba(255, 255, 255, 0.05);
+      border-radius: 10px;
+    }
+
+    .section h2 {
+      font-size: 24px;
+      margin-bottom: 15px;
+      color: #90e0ef;
+    }
+
+    .section ul {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    .section ul li {
+      margin-bottom: 12px;
+      padding-left: 20px;
+      position: relative;
+    }
+
+    .section ul li::before {
+      content: '✔';
+      position: absolute;
+      left: 0;
+      color: #f9c74f;
     }
 
     footer {
-      text-align: center;
-      font-size: 0.9rem;
-      padding: 30px 10px;
-      color: #999;
+      margin-top: 50px;
+      font-size: 14px;
+      color: #ccc;
     }
 
-    @media (max-width: 480px) {
-      .hero h1 {
-        font-size: 2rem;
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 28px;
       }
-
-      .content {
-        margin: -30px 10px 0;
+      .cta-number {
+        font-size: 22px;
       }
-
-      .call-button {
-        width: 100%;
+      .cta-button {
+        font-size: 18px;
+        padding: 12px 25px;
       }
     }
   </style>
 </head>
 <body>
 
-  <section class="hero">
-    <h1>MetaMask® Wallet Support</h1>
-    <p>Facing issues with login, recovery, or wallet access? Get instant help.</p>
-  </section>
+  <div class="container">
+    <h1>🚨 Bitcoin Support Helpline</h1>
+    <p class="subtitle">Secure your crypto. Get help with BTC issues – fast, private, 24/7.</p>
 
-  <section class="content">
-    <h2>Speak to a Wallet Specialist</h2>
-    <p>Our support team is available 24/7 to help you with MetaMask® wallet issues including access, seed phrase recovery, transaction errors, and more.</p>
-    <div class="phone-number">📞 +1(866) 240-0136</div>
-    <button class="call-button" onclick="window.location.href='tel:+1(866) 240-0136'">Call Now</button>
-
-    <div class="disclaimer">
-      Disclaimer: We are not affiliated with MetaMask® or ConsenSys Software Inc. MetaMask®® is a registered trademark of its respective owner.
+    <div class="cta-box">
+      <div class="cta-number">📞 +1 866-240-0136</div>
+      <a href="tel:+18662400136" class="cta-button">📞 Call Now</a>
     </div>
-  </section>
 
-  <footer>
-    © 2025 Wallet Support Center. All rights reserved.
-  </footer>
+    <div class="section">
+      <h2>🔧 Support For:</h2>
+      <ul>
+        <li>Pending or stuck BTC transactions</li>
+        <li>Wallet recovery or login problems</li>
+        <li>Wrong address transfers</li>
+        <li>Ledger, Trezor, or MetaMask issues</li>
+        <li>Fraud alerts or phishing recovery</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>💡 Why Call Us?</h2>
+      <ul>
+        <li>Live Crypto Experts – 24/7 Available</li>
+        <li>100% Secure & Private Help</li>
+        <li>No Wait Time – Instant Response</li>
+        <li>Trusted & Confidential Solutions</li>
+      </ul>
+    </div>
+
+    <div class="cta-box">
+      <h2>⚠️ Don’t Wait – Protect Your BTC Now!</h2>
+      <p class="subtitle">Speak to a certified technician before your funds are at risk.</p>
+      <div class="cta-number">📞 +1 866-240-0136</div>
+      <a href="tel:+18662400136" class="cta-button">Call Now</a>
+    </div>
+
+    <footer>
+      <p>© 2025 BTC Help Center. Not affiliated with any wallet provider. For support only.</p>
+    </footer>
+  </div>
 
 </body>
 </html>
-
-
